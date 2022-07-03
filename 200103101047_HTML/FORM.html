@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h2{text-align: center; background-color:peachpuff;}
+        p{background-color: azure;}
+        class{float: right;}
+        pre{white-space: inherit;}
+        blockquote{
+            text-align: center;
+         }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body >
+     
+     <h2>Welcome to Nirma University</h2>
+     <br>
+    <ul class="manu-links" style="display:flex; justify-content: space-around;">
+        <li class="hoverTrigger"> About </li>
+        <li class="hoverTrigger"> Admissions </li>
+        <li class="hoverTrigger"> Gallery</li>
+        <li class="hoverTrigger"> Academic </li>
+        <li class="hoverTrigger"> Contact </li>
+    </ul>
+     <fieldset>
+        <div>
+            <img src="Photos/Nirma_logo.jpg" alt="Nirma University" align="right" height="150px">
+            <br>
+            <img src="Photos/Logo.png" alt="Nirma University" align="left" height="150px">
+            <br>
+            <img src="Photos/NIrma.jpg" alt="College Capus" width="71%"  height="300px">
+            <br>
+        </div>
+        <legend>Form</legend>
+        <p>
+        <blockquote >
+            
+        <span> First Name :</span><br>
+        <input type="text" placeholder="Enter your First Name ">
+        <br>
+        <br>
+        <span> Middle Name :</span><br>
+        <input type="text" placeholder="Enter your Middle Name " >
+        <br>
+        <br>
+        <span>Last Name :</span><br>
+        <input type="text" placeholder="Enter your Last Name ">
+        <br>
+        <br>
+        <span>E-mail :</span><br>
+        <input type="email" placeholder="Enter your Mail Id ">
+        <br>
+        <br>
+        <span>Mobile No. :</span><br>
+        <input type="number" placeholder="Enter your Mobile No ">
+        <br>
+        <br>
+        <span>Choose Your Course :</span><br>
+        <label for="Course">Course :</label>
+        <select name="course">
+            <option value="--SELECT--">--SELECT--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Com">B.Com</option>
+            <option value="B.E.">B.E.</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox">  Accept Terms And Condition
+        <br>
+        <br>
+        <button type="submit" style="border-color: blue;"> Submit </button>
+        </blockquote>
+        <br>
+        <br>
+    </p>
+     </fieldset>
+</body>
+</html>
